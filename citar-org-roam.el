@@ -27,11 +27,11 @@
 (require 'org-roam)
 (require 'citar)
 
-(defcustom citar-org-roam-subdir "references"
-  "Org-roam subdirectory to place reference notes."
-  :group 'citar
-  :group 'citar-org-roam
-  :type 'string)
+;; (defcustom citar-org-roam-subdir "references"
+;;  "Org-roam subdirectory to place reference notes."
+;;  :group 'citar
+;;  :group 'citar-org-roam
+;;  :type 'string)
 
 (defcustom citar-org-roam-note-title-template
   "${author editor} :: ${title}"
@@ -49,8 +49,8 @@
         :open #'citar-org-roam-open-note
         :create #'citar-org-roam--create-capture-note))
 
-(defvar citar-notes-source)
-(defvar citar-notes-sources)
+;;(defvar citar-notes-source)
+;;(defvar citar-notes-sources)
 (defvar embark-default-action-overrides)
 
 ;;; Functions
